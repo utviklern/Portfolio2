@@ -2,6 +2,8 @@
 
 https://inspiring-lily-48dac9.netlify.app/
 
+(old portfolio - https://utviklern.netlify.app/ - https://github.com/utviklern/portfolio)
+
 ## start
 
 install
