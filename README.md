@@ -13,6 +13,11 @@ run the project:
 ```bash
 npm run dev
 ```
+and in another terminal
+
+```bash
+ npm run tailwind:dev
+```
 
 follow the local host link
 
