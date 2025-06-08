@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp *.html dist/",
+    "build": "vite build && cp *.html dist/ && mkdir -p dist/assets/images && cp -R src/assets/images/* dist/assets/images/",
     "preview": "vite preview"
   },
   "devDependencies": {
