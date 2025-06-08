@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script src="/src/js/main.js" defer></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- header -->
+    <header class="parallax-container">
+        <div class="parallax-image">
+            <img src="/src/assets/images/utviklern_logo.webp" alt="Header Background" class="w-full h-full object-cover" />
+        </div>
+        <div class="parallax-overlay"></div>
+    </header>
+
+    <!-- om meg -->
+<main class="w-full max-w-6xl px-4 py-12 mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center">Om meg</h1>
+
+    <p class="text-gray-300 text-lg mb-10 text-left max-w-prose mx-auto">
+        Jeg heter <a href="https://github.com/utviklern" class="text-green-400 underline" target="_blank">Bård</a> og er straks ferdig med Front-end utvikling på Noroff. 
+        Jeg er tidligere utdannet matros, men grunnet helsemessige utfordringer så jeg måtte finne noe annet å gjøre. <br> <br>
+        I en alder av 27 fant jeg ut at jeg ville jobbe med front-end utvikling. Interessen for PC startet i min
+        barndom, og jeg fant ut at jeg lærer fort innen tema, så for meg var dette et fornuftig valg.
+        Ellers har jeg en stor interesse for friluftsliv og det som følger.
+    </p>
+    <hr class="my-10">
+
+    <h2 class="text-3xl md:text-3xl font-bold mb-10 text-center">Mine prosjekter</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- 1 -->
+        <a href="holidaze.html" class="project-card bg-gray-800 rounded-2xl p-4 shadow-xl transition-transform hover:scale-105">
+            <img src="/src/assets/images/holidaze.webp" alt="Holidaze eksamensprosjekt" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <h2 class="text-xl font-semibold mb-2">Holidaze</h2>
+            <p class="text-gray-400 text-sm">
+                Bookingplattform for overnatting.<br>
+                Bygget for både gjester og eiere.
+            </p>
+        </a>
+
+        <!-- 2 -->
+        <a href="delekat.html" class="project-card bg-gray-800 rounded-2xl p-4 shadow-xl transition-transform hover:scale-105">
+            <img src="/src/assets/images/delekat.webp" alt="delekat gruppeprosjekt" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <h2 class="text-xl font-semibold mb-2">Dekekat</h2>
+            <p class="text-gray-400 text-sm">
+                Sosial oppskriftstjeneste.<br>
+                Del og oppdag matglede sammen.
+            </p>
+        </a>
+
+        <!-- 3 -->
+        <a href="social.html" class="project-card bg-gray-800 rounded-2xl p-4 shadow-xl transition-transform hover:scale-105">
+            <img src="/src/assets/images/social test.webp" alt="noroff social" class="w-full h-48 object-cover rounded-lg mb-4" />
+            <h2 class="text-xl font-semibold mb-2">Noroff Social</h2>
+            <p class="text-gray-400 text-sm">
+                Sosialt nettverk for deling av innlegg.<br>
+                Moderne, responsiv og brukervennlig.
+            </p>
+        </a>
+    </div>
+</main>
+
+</body>
+
+</html>

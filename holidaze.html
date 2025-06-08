@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holidaze | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/src/css/style.css">
+  <script src="/src/js/main.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+  <main class="max-w-4xl mx-auto py-12 px-4">
+    <h1 class="text-4xl font-bold mb-4">Holidaze – Eksamensprosjekt</h1>
+    <div class="parallax-container mb-2">
+      <img src="/src/assets/images/holidaze2.webp" alt="Holidaze" class="parallax-image w-full h-[700px] object-cover rounded" />
+    </div>
+    <figcaption class="text-gray-400 text-sm text-center mb-6">Fullverdig webapplikasjon for booking av overnattingssteder</figcaption>
+    <div class="flex gap-6 mb-8 items-center">
+      <a href="https://jolly-crostata-236ed5.netlify.app" class="text-green-400 underline" target="_blank">Se live side</a>
+      <a href="https://github.com/utviklern/exam2_utviklern#readme" class="text-green-400 underline" target="_blank">Se README</a>
+      <button id="copyLinkBtn" class="text-green-400 underline">Kopier link</button>
+      <span id="copyMsg" class="ml-2 text-green-400 hidden">Kopiert!</span>
+    </div>
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">Om prosjektet</h2>
+      <p class="mb-4">Holidaze er en fiktiv side jeg utviklet som eksamensprosjekt på studiet ved Noroff. Målet var å lage en moderne, brukervennlig og responsiv plattform for booking av overnattingssteder, både for vanlige brukere og for de som eier og vil leie ut et sted.</p>
+      <p class="mb-4"><strong>Formål og målgruppe:</strong> Plattformen er laget for både gjester som ønsker å booke overnatting, og for eiere som vil administrere sine utleiesteder.</p>
+      <h3 class="text-xl font-semibold mb-2">Hovedfunksjoner</h3>
+      <ul class="space-y-2 mb-4">
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Registrering og innlogging for ulike brukerroller</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Søk og filtrering av overnattingssteder</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Booking og oversikt over reservasjoner</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Opprettelse og redigering av egne overnattingssteder</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Responsivt og brukervennlig design</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Teknologi og verktøy brukt</h3>
+      <ul class="space-y-2 mb-4">
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">React</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Tailwind CSS</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">React Router</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Noroff API</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Figma</li>
+        <li class="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold hover:translate-x-1 transition-transform">Netlify</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Resultat</h3>
+      <p>Dette prosjektet har gitt meg god erfaring med å bygge en komplett side fra bunnen av. Jeg har fått jobbet med api, tilpasset løsningen til ulike brukerroller, og lært mye om hvordan man lager en app som både ser bra ut og fungerer godt i praksis.</p>
+    </section>
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">Refleksjoner og forbedringer</h2>
+      <p class="mb-4">
+        <strong>Hva lærte jeg?</strong> Dette prosjektet ga meg en dypere forståelse for hvordan man bygger en komplett side fra bunnen av. Jeg fikk testet ut React i praksis, jobbet mye med api og lærte hvor viktig det er å tenke på brukeropplevelse og tilgjengelighet gjennom hele prosessen. Det var også lærerikt å jobbe med autentisering og ulike brukerroller.
+      </p>
+      <p class="mb-4">
+        <strong>Hva ville jeg gjort annerledes?</strong> Jeg ville brukt mer tid på planlegging og strukturering av komponenter i starten, for å gjøre det lettere å utvide og vedlikeholde koden senere. Jeg ser også at det er lurt å involvere brukertesting tidligere i prosessen for å fange opp småfeil og forbedringsmuligheter.
+      </p>
+      <p>
+        <strong>Hvordan kan prosjektet forbedres videre?</strong> Jeg kunne tenkt meg å legge til flere filtreringsmuligheter, bedre feilhåndtering og kanskje en kalenderfunksjon for booking. Det hadde også vært spennende å jobbe videre med design og animasjoner for å gjøre opplevelsen enda mer engasjerende.
+      </p>
+    </section>
+    <div class="mt-8">
+      <a href="index.html" class="text-blue-400 underline">&larr; Tilbake til forsiden</a>
+    </div>
+  </main>
+</body>
+</html> 
