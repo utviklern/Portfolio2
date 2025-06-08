@@ -20,6 +20,6 @@ document.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxImage = document.querySelector('.parallax-image');
     if (parallaxImage) {
-        parallaxImage.style.transform = `translateZ(-1px) scale(2) translateY(${scrolled * 0.5}px)`;
+        parallaxImage.style.transform = `translateY(${scrolled * 0.3}px)`;
     }
 });
